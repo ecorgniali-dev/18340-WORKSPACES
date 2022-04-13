@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./src/index.js",
     "dev": "nodemon",
-    "test": "mocha"
+    "test": "mocha src/test/**/*.js"
   },
   "keywords": [],
   "author": "Eduardo Corgniali <educorgniali@gmail.com>",
