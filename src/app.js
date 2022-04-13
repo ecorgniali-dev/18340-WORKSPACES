@@ -17,7 +17,7 @@ app.get('/productos', async (req, res) => {
 app.get('/productosRandom', async (req, res) => {
     try {
         const products = await apiProductos.getAll()
-        const random = utils.generarNumRandom(0, products.length)
+        const random = utils.generarNumRandom(0, products.length - 1)
         res.json(products[random])
     } catch (error) {
         res.json({ error: error.message })
