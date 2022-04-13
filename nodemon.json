@@ -1,0 +1,7 @@
+{
+    "whatch": "./src",
+    "ignore": [
+        "*.txt",
+        "*.test.js"
+    ]
+}
